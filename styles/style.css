@@ -24,7 +24,12 @@
   left: 64px;
   z-index: 2;
   position: absolute;
-} 
+}
+
+.logo {
+  width: 228px;
+  height: 32px;
+}
 
 .header__title {
   line-height: 96px;
@@ -319,7 +324,3 @@
   height: 16px;
   width: 16px;
 }
-
-.logo {
-  width: 228px;
-  height: 32px;
