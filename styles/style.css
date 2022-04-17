@@ -38,7 +38,6 @@
   width: 730px;
   margin-left: 64px;
   z-index: 2;
-  display: flex;
   align-self: center;
 }
 
@@ -103,7 +102,7 @@
   min-width: 784px;
 }
 
-.two-column__paragraph {
+.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -111,11 +110,11 @@
   margin-bottom: 30px;
 }
 
-.two-column__paragraph:last-of-type {
+.two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
-.two-column__span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -153,6 +152,7 @@
   margin: 0 auto;
   list-style: none;
   justify-content: space-around;
+  padding-left: 0;
 }
 
 .table__cell {
@@ -323,4 +323,5 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
+  padding-right: 10px;
 }
